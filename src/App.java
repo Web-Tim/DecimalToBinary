@@ -17,6 +17,7 @@ public class App {
             binaryNum.add(newNum % 2);
             newNum /= 2;
         }
+        
         Collections.reverse(binaryNum);
         binaryNum.forEach(System.out::print);
     }
